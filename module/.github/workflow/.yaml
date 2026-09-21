@@ -1,1 +1,7 @@
-
+name: aks infra pipeline
+on:
+  workflow_dispatch:
+permissions:
+ id_token: write
+ content: read
+ 
