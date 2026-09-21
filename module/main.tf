@@ -22,3 +22,8 @@ module "acr" {
   source              = "../Root/ACR"
   acr_config = var.acr_config
 }
+module "postgress" {
+  source           = "../Root/Postgress_datbase"
+  postgress_config = var.postgress_config
+  database_config  = var.database_config
+}

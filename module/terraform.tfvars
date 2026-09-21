@@ -31,3 +31,12 @@
     rg_name  = "axion-rg"
     location = "centralIndia"
   }
+postgress_config = {
+  name     = "postgress-sql"
+  rg_name  = "axion-rg"
+  location = "centralIndia"
+}
+
+database_config = {
+  name = "axiondb"
+}
